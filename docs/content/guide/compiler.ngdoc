@@ -16,10 +16,8 @@ If you want a deeper look into Angular's compilation process, you're in the righ
 
 ## Overview
 
-Angular's {@link ng.$compile HTML compiler} allows the developer to teach the
-browser new HTML syntax. The compiler allows you to attach behavior to any HTML element or attribute
-and even create new HTML elements or attributes with custom behavior. Angular calls these behavior
-extensions {@link ng.$compileProvider#directive directives}.
+Angular's {@link ng.$compile HTML compiler}允许开发者给浏览器引入新的语法标签。compiler允许你给任何的HTML元素或者
+属性或者新创建的元素或属性添加行为。
 
 HTML has a lot of constructs for formatting the HTML for static documents in a declarative fashion.
 For example if something needs to be centered, there is no need to provide instructions to the
